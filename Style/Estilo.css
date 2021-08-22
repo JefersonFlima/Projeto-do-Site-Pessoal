@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    /* margem */
+    padding: 0px;
+    /* espaçamento interno */
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    /* linha de fundo */
+}
+
+
+/* CABECALHO  */
+
+#cabecalho {
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+.menu h1 {
+    /* fundo gradiente */
+    background-image: linear-gradient(#001fff, #fc0000);
+    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
+    color: gradient;
+    font-size: 3em;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* MENU DE NAVEGAÇÃO */
+
+.menu {
+    background-color: rgb(53, 52, 52);
+    width: 100%;
+    padding: 0px 0px 7px 0px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 1.3em;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+}
+
+.menu li a:hover {
+    color: yellow;
+}
+
+
+/* BARRA DE PESQUISA  */
+
+.menu form {
+    float: right;
+}
+
+.menu input[type=text] {
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 1px;
+    padding: 10px 5px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu form ::-webkit-input-placeholder {
+    color: red;
+    text-align: center;
+}
+
+.menu button {
+    float: right;
+    margin-top: 1px;
+    margin-right: 2px;
+    padding: 10px 5px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(30, 255, 0);
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(68, 68, 68));
+    color: rgb(0, 0, 0);
+}
+
+
+/* PRODUTOS */
+
+.principal p {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+}
+
+.principal .primeiraLinha {
+    display: flex;
+}
+
+.principal .SegundaLinha {
+    display: flex;
+}
+
+.principal .prod1 {
+    width: 100%;
+    display: inline;
+}
+
+.principal .prod2 {
+    width: 100%;
+    display: inline;
+}
+
+.principal .imagens {
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+    border: solid 2px black;
+}
+
+.principal .prod1 p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: 'Helvetica Neue';
+    color: black;
+}
+
+.principal .prod2 p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: 'Helvetica Neue';
+    color: black;
+}
+
+
+/* SECTION */
+
+.Contatos {
+    width: 100%;
+    float: left;
+    padding: 5px 8%;
+    background-color: rgb(53, 52, 52);
+}
+
+.Contatos li {
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+.Contatos ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contatos h2 {
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+}
+
+.Contatos h3 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+.Contatos h2:hover,
+h3:hover {
+    color: yellow;
+}
+
+.Contatos p {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+.Contatos form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.Contatos form input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: solid 2.5px;
+    border-radius: 10px;
+    color: white;
+    background-color: initial;
+}
+
+.Contatos button {
+    width: 17%;
+    background-color: white;
+    padding: 17px 10px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+#telefone:hover {
+    color: red;
+}
+
+#whats:hover {
+    color: #34af23;
+}
+
+#contato:hover {
+    color: rgb(230, 122, 0);
+}
+
+
+/* RODAPÉ */
+
+.rodape {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    background-color: black;
+}
+
+.rodape p {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,110 @@
+.principalSobreNos {
+    width: 100%;
+    float: left;
+    padding: 10px 2%;
+}
+
+.historia h2 {
+    font-size: 3.5em;
+    text-align: center;
+    color: red;
+}
+
+.historia p {
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.time1 {
+    width: 50%;
+    float: left;
+}
+
+.time1 h2 {
+    font-size: 3.5em;
+    text-align: center;
+    color: red;
+}
+
+.time1 h3 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color: black;
+    color: red;
+}
+
+.time1 h3:hover {
+    color: rgb(255, 0, 242);
+}
+
+.time1 h4 {
+    margin-left: 20px;
+    font-size: 1.3em;
+    color: black;
+    color: red;
+}
+
+.time1 p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+#presidente {
+    width: 226px;
+    height: 151px;
+    float: left;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.time2 {
+    width: 48%;
+    float: right;
+}
+
+.time2 h2 {
+    font-size: 3.5em;
+    text-align: center;
+    color: red;
+}
+
+.time2 h3 {
+    margin-left: 20px;
+    text-align: right;
+    font-size: 2.5em;
+    color: black;
+    color: red;
+}
+
+.time2 h3:hover {
+    color: rgb(255, 0, 242);
+}
+
+.time2 h4 {
+    margin-left: 20px;
+    text-align: right;
+    font-size: 1.3em;
+    color: black;
+    color: red;
+}
+
+.time2 p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+#presidente {
+    width: 226px;
+    height: 151px;
+    float: right;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+#vice {
+    width: 226px;
+    height: 151px;
+    float: left;
+    border-radius: 6px;
+    margin-right: 10px;
+}
